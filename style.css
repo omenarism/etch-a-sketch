@@ -5,7 +5,6 @@
 
 body {
     background-color: #EE736B;
-
 }
 
 #text-container {
@@ -14,6 +13,23 @@ body {
     padding: 10px;
     background-color: #6beeaa;
     border-style: dotted dotted dashed dotted;
+    border-radius: 8px;
+}
+
+#btn-reset {
+    text-align: center;
+    margin: 20px 0 0 0;
+}
+
+#btn-reset button {
+font-family: "Cabin Sketch", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: large;
+    color: #333;
+    padding: 8px;
+    border-radius: 5px;
+    border-style: dashed;
 }
 
 h1 {
@@ -27,16 +43,16 @@ h1 {
 #container {
     display: flex;
     flex-wrap: wrap;
-    margin: 70px auto;
+    margin: 5px auto;
 }
 
 .hover {
-    background-color: #fff;
+    background-color: #eee;
     opacity: 1;
     transition: 0.3s;
 }
 
 .hover:hover {
-    opacity: 0.3;
+    opacity: 0.1;
     background-color: #999;
 }
