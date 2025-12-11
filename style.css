@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #EE736B;
+
+}
+
+#text-container {
+    width: 250px;
+    margin: 30px auto 0 auto;
+    padding: 10px;
+    background-color: #6beeaa;
+    border-style: dotted dotted dashed dotted;
+}
+
+h1 {
+    text-align: center;
+    font-family: "Cabin Sketch", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: #333;
+}
+
+#container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 70px auto;
+}
+
+.hover:hover {
+    background-color: #333;
+}
