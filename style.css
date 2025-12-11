@@ -30,6 +30,13 @@ h1 {
     margin: 70px auto;
 }
 
+.hover {
+    background-color: #fff;
+    opacity: 1;
+    transition: 0.3s;
+}
+
 .hover:hover {
-    background-color: #333;
+    opacity: 0.3;
+    background-color: #999;
 }

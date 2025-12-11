@@ -10,8 +10,9 @@ grid.style.width = "50px";
 grid.style.height = "50px";
 grid.style.border = "1px solid #000";
 
-let rows = 10;
-let cols = 10;
+let input = +prompt("Enter a number below 100");
+let rows = input;
+let cols = input;
 
 function drawGrid() {
   for (let i = 0; i < rows; i++) {
@@ -21,6 +22,9 @@ function drawGrid() {
       gridCell.style.height = `${800 / rows}px`;
       gridCell.classList.add("hover");
       square.appendChild(gridCell);
+      gridCell.addEventListener("click", () => {
+        gridCell.style.backgroundColor = "#000";
+      });
     }
   }
 }
